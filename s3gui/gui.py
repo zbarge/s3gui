@@ -6,7 +6,7 @@ Created on Fri Nov 25 21:29:18 2016
 """
 import os
 import json
-from s3 import S3Client
+from .s3 import S3Client
 from tkinter import LEFT, RIGHT, TOP, BOTTOM, END, Tk, Listbox, Menu, filedialog
 from tkinter.ttk import Entry, Frame, Label, Button, Treeview, Scrollbar
 SETTINGS = {'ROOT_DIR':'C:/Users/Zeke/Google Drive/dev/python/bakker/bakker/data',
